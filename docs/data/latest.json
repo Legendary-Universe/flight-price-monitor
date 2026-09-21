@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "data": {
+    "query": {
+      "from": {
+        "code": "SHE",
+        "name": "SHE"
+      },
+      "to": {
+        "code": "CGO",
+        "name": "CGO"
+      },
+      "depart_dates": [
+        "2026-10-07"
+      ],
+      "return_dates": [
+        "2026-10-01"
+      ],
+      "platforms": [
+        "qunar",
+        "tongcheng",
+        "tuniu"
+      ],
+      "threshold": 0,
+      "query_time": "2026-09-21 03:37:06"
+    },
+    "results": [
+      {
+        "platform": "tuniu",
+        "from": "CGO",
+        "to": "SHE",
+        "date": "2026-10-01",
+        "price": 760.0,
+        "airline": "瑞丽航",
+        "flight_no": "DR6594",
+        "depart_time": "22:30",
+        "arrive_time": "00:40",
+        "fetched_at": "2026-09-21 03:33:54"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "CGO",
+        "to": "SHE",
+        "date": "2026-10-01",
+        "price": 760.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-09-21 03:35:03"
+      },
+      {
+        "platform": "tuniu",
+        "from": "SHE",
+        "to": "CGO",
+        "date": "2026-10-07",
+        "price": 920.0,
+        "airline": "国航",
+        "flight_no": "CA3533",
+        "depart_time": "09:15",
+        "arrive_time": "11:50",
+        "fetched_at": "2026-09-21 03:36:25"
+      },
+      {
+        "platform": "qunar",
+        "from": "SHE",
+        "to": "CGO",
+        "date": "2026-10-07",
+        "price": 1070.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-09-21 03:36:40"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "SHE",
+        "to": "CGO",
+        "date": "2026-10-07",
+        "price": 1070.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-09-21 03:37:06"
+      }
+    ],
+    "summary": [
+      {
+        "from": "CGO",
+        "to": "SHE",
+        "date": "2026-10-01",
+        "per_platform": {
+          "tuniu": 760.0,
+          "tongcheng": 760.0
+        },
+        "min_price": 760.0,
+        "best_platform": "tuniu",
+        "best_flight": "瑞丽航DR6594",
+        "best_depart_time": "22:30",
+        "best_arrive_time": "00:40"
+      },
+      {
+        "from": "SHE",
+        "to": "CGO",
+        "date": "2026-10-07",
+        "per_platform": {
+          "tuniu": 920.0,
+          "qunar": 1070.0,
+          "tongcheng": 1070.0
+        },
+        "min_price": 920.0,
+        "best_platform": "tuniu",
+        "best_flight": "国航CA3533",
+        "best_depart_time": "09:15",
+        "best_arrive_time": "11:50"
+      }
+    ],
+    "trend": {
+      "2026-10-01": {
+        "tuniu": [
+          {
+            "t": "2026-09-21 03:33:54",
+            "v": 760.0
+          }
+        ],
+        "tongcheng": [
+          {
+            "t": "2026-09-21 03:35:03",
+            "v": 760.0
+          }
+        ]
+      },
+      "2026-10-07": {
+        "tuniu": [
+          {
+            "t": "2026-09-21 03:36:25",
+            "v": 920.0
+          }
+        ],
+        "qunar": [
+          {
+            "t": "2026-09-21 03:36:40",
+            "v": 1070.0
+          }
+        ],
+        "tongcheng": [
+          {
+            "t": "2026-09-21 03:37:06",
+            "v": 1070.0
+          }
+        ]
+      }
+    },
+    "generated_at": "2026-09-21T03:37:42.323549Z"
+  }
+}
